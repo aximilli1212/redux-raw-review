@@ -1,5 +1,5 @@
 import {showLogin, showLogout} from "../actions/MenuActions";
-import store from '../store'
+import store from '../../js/store'
 export interface StoreWindow extends Window {
     store: typeof store
     showLogin(): { type: string }
